@@ -27,7 +27,7 @@ app.use(cors());
 // });
 
 //DB config
-const connection_url = 'mongodb+srv://icarus:Qwerty%40123@cluster0.7bc2s.mongodb.net/whatsappdb?retryWrites=true&w=majority';
+const connection_url = 'mongodb+srv://icarus:<pw>@cluster0.7bc2s.mongodb.net/<nameofdb>?retryWrites=true&w=majority';
 mongoose.connect(connection_url,{
     useUnifiedTopology: true
 });
